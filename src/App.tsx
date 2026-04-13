@@ -100,7 +100,7 @@ function App() {
               onClick={() => revealBox(i)}
               disabled={isRevealed}
             >
-              {isRevealed ? word : '?'}
+              {isRevealed ? word : i + 1}
             </button>
           )
         })}
